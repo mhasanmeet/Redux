@@ -1,15 +1,13 @@
-## React Redux
+## React Redux (New Way)
 
-`npm i redux react-redux`
+For new updated React Redux provide two hooks `useSelector()` & `useDispatch()`
 
-## Steps
+## Steps 
 
-* Create `actionTypes` and `actions`
-* Create a Reducer for counter feature as `counterReducer.js`
-* Creating `store` and use by `react-redux` provider
-* Connect API (old way)
-    * HOC (Higher Order Component)
-    * mapStateToProps
-    * mapDispatchToProps
-
-* Redux Hook (New way)
+* install two dependencies `npm i redux react-redux`
+* Create `action type` 
+* Create `actions`
+* Create `Reducer` fot that actions
+* Get that reducer in `store`
+* Get that store in `App` file of the project and use react-redux `provider`
+* Finally get `useSelector()` & `useDispatch()` hooks in the component

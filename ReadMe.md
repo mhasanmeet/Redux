@@ -12,7 +12,7 @@ Redux is a flexible state container for JavaScript Apps that manages our applica
 
 `npm i redux react-redux`
 
-## React Redux
+## React Redux (Old way)
 
 * Create `actionTypes` and `actions`
 * Create a Reducer for counter feature as `counterReducer.js`
@@ -22,7 +22,7 @@ Redux is a flexible state container for JavaScript Apps that manages our applica
     * mapStateToProps
     * mapDispatchToProps
 
-* Redux Hook (New way)
+## Redux Hook (New way)
     * useSelector()
 
 ## Learning
