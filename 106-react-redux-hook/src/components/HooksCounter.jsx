@@ -21,8 +21,8 @@ function HooksCounter(){
         <div class="state-area">
             <div class="data-output" id="output">{count}</div>
             <div class="button-area">
-                <button id="decrement" onClick={() => decrementHandler()}>Decrement</button>
-                <button id="increment" onClick={() => incrementHandler()}>Increment</button>
+                <button id="decrement" onClick={() => decrementHandler(5)}>Decrement</button>
+                <button id="increment" onClick={() => incrementHandler(5)}>Increment</button>
             </div>
         </div>
     </div>
