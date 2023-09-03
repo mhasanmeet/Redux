@@ -27,7 +27,7 @@ const initialState = {
 const counterReducer = ((state, actions) => {
     if(actions.type === "increment"){
         return {
-            ...state, //we will not modified the initial state so for that we just copy the state by spread operator
+            ...state, //we will not modified the initial state, that's why we just copy the state by spread operator
             value: state.value + actions.payload //if it is increment condition then increase the value
         }
     }
